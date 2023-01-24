@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function TripLogPage() {
   return (
-    <div className='flex flex-col'>
+    <div className=''>
    <h1 className="p-3 font-semibold m-auto text-center">Daily Trip Log</h1>
 
 {/* Time */}
