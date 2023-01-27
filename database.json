@@ -1,26 +1,38 @@
-[{
+[
+  {
     "id": "driver_1",
     "name": "Micheal Ade",
     "vehicle": "EPE-89DG22",
     "company": "Patgeda",
     "se": " David Ajero",
-    "trip": [{
-            "date": "01/24/2023",
-            "startTime": "09:42 AM",
-            "endTime": "10:30 AM",
-            "startLoc": "New House Osborne Foreshore",
-            "endLoc": "Oriental Hotel Victoria Island",
-            "startOdo": "105509",
-            "endOdo": "105513"
-        },
-        {
-            "date": "01/24/2023",
-            "startTime": "11:42 AM",
-            "endTime": "12:50 PM",
-            "startLoc": "Oriental Hotel Victoria Island",
-            "endLoc": "New House Osborne Foreshore",
-            "startOdo": "105513",
-            "endOdo": "105516"
-        }
+    "trip": [
+      {
+        "date": "01/24/2023",
+        "startTime": "09:42 AM",
+        "endTime": "10:30 AM",
+        "startLoc": "New House Osborne Foreshore",
+        "endLoc": "Oriental Hotel Victoria Island",
+        "startOdo": "105509",
+        "endOdo": "105513"
+      },
+      {
+        "date": "01/24/2023",
+        "startTime": "11:42 AM",
+        "endTime": "12:50 PM",
+        "startLoc": "Oriental Hotel Victoria Island",
+        "endLoc": "New House Osborne Foreshore",
+        "startOdo": "105513",
+        "endOdo": "105516"
+      },
+      {
+        "date": "01/27/2023",
+        "startTime": "11:42 AM",
+        "endTime": "12:50 PM",
+        "startLoc": "Heritage Place",
+        "endLoc": "Eko Hotel",
+        "startOdo": "105516",
+        "endOdo": "105535"
+      }
     ]
-}]
+  }
+]
