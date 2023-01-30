@@ -12,6 +12,19 @@ export default function TripLogPage() {
   //const formatedStartDate = format(new Date(startDate),"dd-MMMM-yy");
   //console.log(endTime - startTime);
 
+  const onSave = () => {
+    const dataToSend = {
+      startTime,
+      endTime,
+      date,
+      startLocation,
+      endLocation,
+      startOdometer,
+      endOdometer,
+    };
+    console.log(dataToSend);
+  };
+
   return (
     <div className="">
       <h1 className="p-3 font-semibold m-auto text-center">Daily Trip Log</h1>
@@ -122,7 +135,10 @@ export default function TripLogPage() {
           </div>
         </div>
 
-        <button className="bg-green-500 p-2 w-1/4 mt-5 text-white font-semibold mx-auto">
+        <button
+          onClick={onSave()}
+          className="bg-green-500 p-2 w-1/4 mt-5 text-white font-semibold mx-auto"
+        >
           Save
         </button>
       </div>
